@@ -7,6 +7,7 @@
       <!-- Bootstrap CSS -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
       <link rel="stylesheet" href="styles.css">
+      
       <title>Researcher Service</title>
       <style>
          .show {
@@ -47,7 +48,7 @@
                      </ul>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                   </li>
                </ul>
                <form class="d-flex">
@@ -58,82 +59,31 @@
          </div>
       </nav>
       <!--end Nevbar -->
-      <br>
-      <div class="container">
-      <h1>Researcher Service Management</h1>
-      <br>
-      <form>
-         <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input class="form-control" id="name" aria-describedby="namelHelp">
-         </div>
-         <div class="mb-3" style="display: none">
-            <label for="id" class="form-label">Name</label>
-            <input class="form-control" id="id" aria-describedby="idHelp">
-         </div>
-         <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input class="form-control" id="email" aria-describedby="emailHelp">
-         </div>
-         <div>
-            <div class="row">
-               <div class="col">
-                  <div class="mb-3">
-                     <label for="password" class="form-label">Password</label>
-                     <input class="form-control" id="password" aria-describedby=passwordHelp">
-                  </div>
-               </div>
-               <div class="col">
-                  <div class="col">
-                     <div class="mb-3">
-                        <label for="cpassword" class="form-label">Confirm Password</label>
-                        <input class="form-control" id="cpassword" aria-describedby=cpasswordHelp">
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="mb-3">
-               <label for="CID" class="form-label">CID</label>
-               <input class="form-control" id="CID" aria-describedby="CIDHelp">
-            </div>
-            <br>
-            <button class="btn btn-primary submit">Submit</button>
-            <button class="btn btn-primary update">Update</button>
-      </form>
-      <br/>
-      <br/>
-      <div id="deleteLabel" class="alert alert-success hide" role="alert" style="display: none">
-      Succesfully delected the item. 
-      </div>
-      <div id="insertLabel" class="alert alert-success hide" role="alert" style="display: none">
-      Succesfully inserted the item. 
-      </div>
-      <div id="updateLabel" class="alert alert-success hide" role="alert" style="display: none">
-      Succesfully updated the item. 
-      </div>
-      <div id="deleteLabelerror" class="alert alert-danger hide" role="alert" style="display: none">
-      Error while deleting the item. 
-      </div>
-      <div id="insertLabelerror" class="alert alert-danger hide" role="alert" style="display: none">
-      Error while inserting the item. 
-      </div>
-      <div id="updateLabelerror" class="alert alert-danger hide" role="alert" style="display: none">
-      Error while updating the item. 
-      </div>
-      <table class="table">
-      <thead>
-      <tr>
-      <th scope="col">Id</th>
-      <th scope="col">Name</th>
-      <th scope="col">Email</th>
-      <th scope="col">CID</th>
-      <th scope="col">Action</th>
-      </tr>
-      </thead>
-      <tbody id="researcher_table">
-      </tbody>
-      </table>
-      </div>
+      
+      </br>
+       </br>
+        </br>
+         </br>
+          </br>
+  		<div class="container" style="padding: 50px">
+<div class="jumbotron">
+  <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="emaillogin" aria-describedby="emailHelp">
+    <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword11">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div style="margin-top: 40px">
+  	 <button id="loginBtn" type="submit" class="btn btn-primary">Login</button>
+  </div>
+ 
+</form>
+</div>
+  		</div>
       <!--grid -->
       <!--end grid -->
       <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -142,6 +92,6 @@
          src="https://code.jquery.com/jquery-3.6.0.js"
          integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
          crossorigin="anonymous"></script>
-      <script src="script.js"></script>
+      <script src="login.js"></script>
    </body>
 </html>
